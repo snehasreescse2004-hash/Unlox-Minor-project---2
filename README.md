@@ -3,50 +3,28 @@ A Python-based financial transaction analysis project that transforms raw bank t
 
 # 💳 SpendDNA – Your Transaction Story, Decoded
 
-> Transforming raw bank transactions into meaningful financial insights using Python and Data Analysis.
+## 📌 Project Overview
 
-## 🌟 About the Project
+SpendDNA is a Data Science minor project developed as part of the Unlox Academy program. The project analyzes bank transaction data to identify spending habits, categorize expenses, detect unusual transactions, and generate meaningful financial insights.
 
-Managing personal finances becomes easier when transaction data is transformed into useful insights. **SpendDNA** is a data analysis project that decodes transaction history to uncover spending patterns, detect unusual transactions, identify financial habits, and generate a comprehensive spending report.
-
-This project was developed as part of my Data Science learning journey at **Unlox Academy**, showcasing practical applications of Python, Pandas, and NumPy in financial data analysis.
+The project demonstrates how Python and data analysis techniques can be used to understand personal financial behavior from transaction records.
 
 ---
 
-## 🎯 Project Objectives
+## 🎯 Project Objective
 
-* Clean and preprocess transaction data
-* Extract vendor information
-* Categorize transactions automatically
-* Analyze monthly spending trends
-* Perform time-of-day spending analysis
-* Detect anomalous transactions using Z-Score
-* Identify spending archetypes
-* Generate a complete SpendDNA report
-
----
-
-## 🚀 Features
-
-✅ Transaction Parsing
-
-✅ Vendor Extraction
-
-✅ Category Tagging
-
-✅ Spending Overview
-
-✅ Monthly Trend Analysis
-
-✅ Time-of-Day Analysis
-
-✅ Anomaly Detection
-
-✅ Spending Archetype Detection
+* Analyze transaction history.
+* Extract and clean vendor names.
+* Categorize transactions into spending categories.
+* Calculate monthly spending trends.
+* Analyze spending based on time of day.
+* Detect abnormal (anomalous) transactions.
+* Identify spending archetypes.
+* Generate a final financial summary report.
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Technologies Used
 
 * Python
 * Pandas
@@ -57,9 +35,9 @@ This project was developed as part of my Data Science learning journey at **Unlo
 
 ## 📂 Dataset
 
-This project uses the **rahul_transactions.csv** dataset provided for the Unlox Academy SpendDNA Minor Project.
+The project uses the **rahul_transactions.csv** dataset provided by Unlox Academy.
 
-The dataset contains:
+**Dataset Features:**
 
 * Date
 * Time
@@ -72,13 +50,49 @@ The dataset contains:
 
 ---
 
-## 📊 Key Insights
+## 📊 Features Implemented
+
+### ✅ Task 1
+
+**Transaction Parsing**
+
+### ✅ Task 2
+
+**Vendor Extraction**
+
+### ✅ Task 3
+
+**Transaction Categorization**
+
+### ✅ Task 4
+
+**Spending Overview**
+
+### ✅ Task 5
+
+**Monthly Trend Analysis**
+
+### ✅ Task 6
+
+**Time-of-Day Analysis**
+
+### ✅ Task 7
+
+**Anomaly Detection using Z-Score**
+
+### ✅ Task 8
+
+**Spending Archetype Detection**
+
+---
+
+## 📈 Key Insights
 
 * Identified the highest spending categories.
-* Detected unusual transactions using statistical analysis.
-* Analyzed monthly spending trends.
-* Explored spending behavior based on time of day.
-* Identified spending archetypes from transaction patterns.
+* Analyzed monthly spending patterns.
+* Detected late-night spending behavior.
+* Found unusual transactions using Z-score analysis.
+* Generated spending archetypes based on transaction history.
 
 ---
 
@@ -86,47 +100,36 @@ The dataset contains:
 
 ```text
 SpendDNA/
-│── SpendDNA_Project.ipynb
-│── rahul_transactions.csv
-│── README.md
+│
+├── rahul_transactions.csv
+├── SpendDNA_Project.ipynb
+└── README.md
 ```
 
 ---
 
-## ▶️ How to Run
+## 📚 Learning Outcomes
 
-1. Clone this repository.
-2. Open the notebook in Google Colab or Jupyter Notebook.
-3. Upload the dataset.
-4. Run all cells from top to bottom.
-5. View the generated SpendDNA report.
-
----
-
-## 📚 Skills Demonstrated
+Through this project, I learned:
 
 * Data Cleaning
 * Data Preprocessing
-* Exploratory Data Analysis (EDA)
 * String Manipulation
+* Data Analysis using Pandas
 * GroupBy Operations
-* Time-Series Analysis
-* Statistical Analysis
+* Time-based Analysis
+* Anomaly Detection
 * Financial Data Analysis
 * Report Generation
 
 ---
 
-## 👩‍💻 About Me
+## 👩‍💻 Author
 
 **Sneha Sree S**
 
-🎓 B.E. Computer Science Engineering Student
-
-📊 Aspiring Data Scientist
-
-🐍 Python | SQL | NumPy | Pandas | Data Analysis
+**Data Science Student | Python Enthusiast | Aspiring Data Scientist**
 
 ---
 
-### ⭐ If you found this project helpful or interesting, consider giving this repository a star!
+⭐ **Thank you for visiting this repository! If you found this project useful, feel free to give it a star.**
